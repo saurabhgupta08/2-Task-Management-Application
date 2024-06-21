@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Task Manager<img src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Your Task Title">
+            </div>
+            <div class="row">
+                <input type="text" id="description-box" placeholder="Add Your Task Description">
+            </div>
+            <div class="row" id="butt" >
+                <button onclick="addTask()">Add</button>
+            </div>
+            <h3>Task list</h3>
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
